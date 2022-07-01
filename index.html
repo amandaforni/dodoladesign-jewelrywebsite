@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Dodola Design</title>
+
+        <style>
+			:root {
+				--background-light: #F6E3DF;
+                --background-dark: #A26769;
+				--color-main: #000;
+				--color-hover: #6d2e46; 
+                
+			}
+		</style> 
+
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta
+            name="Dodola Design"
+            content="Timeless jewelry made with recycled silver"
+        />
+
+        <link rel="apple-touch-icon" href="img/dodola.svg" />
+		<link rel="icon" type="image" sizes="32x32" href="img/dodola.svg">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@300;400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+        <link rel="stylesheet" type="text/css" href="src/style.css" />
+    </head>
+    <body>
+        <div class="main-body">
+            <div class="header">
+                <!--material icons this to have a cart once shop is working-->
+                <div class="logo row">
+                    <img alt="3 raindrops dodola design logo" src="img/dodola.svg"/>
+                    <div>
+                        <h2>dodola</h2>
+                        <h2>design</h2>
+                    </div>
+                </div>
+                <div class="options-row row">
+                    <a class="nav-link" data-page="default-page">gallery</a>
+                    <span> | </span>
+                    <a href="https://www.etsy.com/uk/shop/dodoladesign" target="_blank">shop</a>
+                    <span> | </span>
+                    <a class="nav-link" data-page="about-page">about</a>
+                    <span> | </span>
+                    <a class="nav-link" data-page="contact-page">contact</a>
+                </div>
+            </div>
+            <div class="page default-page product-page">
+                <div class="product-grid">
+
+                </div>
+            </div>
+            <div class="page about-page" style="display: none;">
+                <div class="collage">
+                    <img id='box-img' alt="Branded boxes on a wooden table" src="img/boxes.jpg"/>
+                    <img id='ring-img' alt="Top angle of rings with reflection like sunbeams around the outside of them" src="img/rings.jpg"/>
+                    <img id='stone-img' alt="Streaky stones with blue and white hues on a bright white background" src="img/stones.jpg"/>
+                </div>
+                <div class="about-body">
+                    <h3>Timeless designs made with recycled silver</h3>
+                    <br>
+                    <p>Dodola Design is a passion project, creating pieces to wear and cherish.
+                        <br>We pride ourselves on each piece being one of a kind. Each piece is hand-made by our silversmith, using stones selected for their quality and unique charms.
+                        <br>Because this is a passion project, we sadly do not have as much time or money as we would like to dedicate to the craft and very much appreciate the support we've received to keep this project going!
+                        <br>To contact us for custom pieces, enquiries, or just to say hello please head to the <a class="contact-link">Contact page</a> and choose your preferred route.
+                    </p>
+                </div>
+            </div>
+            <div class="page contact-page" style="display: none;">
+                <p>Want a custom piece made? Have questions about our shipping policies? Just want to say hello?
+                    <br>Drop us a line! 
+                </p>
+                <div class="contact-options column">
+                    <a>Email us <span><!--email icon---></span></a>
+                    <a>Find us on Etsy <span><!--shopping cart? icon---></span></a>
+                    <a>Follow on Instagram <span><!--material icons instagram link--></span></a>
+                </div>
+            </div>
+        </div>
+        <div class="page cart-page" style="display: none;">
+
+        </div>
+        <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+        <script src="src/script.js"></script>
+    </body>
+</html>
